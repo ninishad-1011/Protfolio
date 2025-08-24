@@ -1,0 +1,32 @@
+.hero {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 0;
+}
+
+.hero-text {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  display: inline-block; /* keeps both lines as one block */
+  line-height: 1.2;
+  /* adjust spacing between lines */
+}
+
+.letter {
+  opacity: 0;
+  display: inline-block;
+  transform: translateY(-20px);
+  animation: fadeInUp 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

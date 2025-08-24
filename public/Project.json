@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Personal Portfolio Website",
+    "description": "A responsive personal portfolio website built with React and Tailwind CSS to showcase my projects and skills.",
+    "image": "/images/portfolio1.png",
+    "technologies": ["React", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
+    "github": "https://github.com/yourusername/portfolio"
+  },
+  {
+    "id": 2,
+    "title": "E-commerce Website",
+    "description": "A full-stack e-commerce web application with product listing, shopping cart, and checkout functionality.",
+    "image": "/images/portfolio2.png",
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    "github": "https://github.com/yourusername/ecommerce"
+  },
+  {
+    "id": 3,
+    "title": "Task Manager App",
+    "description": "A CRUD task manager app that allows users to create, update, and delete tasks in real-time.",
+    "image": "/images/portfolio3.png",
+    "technologies": ["React", "Firebase", "JavaScript", "CSS"],
+    "github": "https://github.com/yourusername/task-manager"
+  },
+  {
+    "id": 4,
+    "title": "Blog Website",
+    "description": "A blogging platform where users can post articles, comment, and like posts.",
+    "image": "/images/portfolio4.png",
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Bootstrap"],
+    "github": "https://github.com/yourusername/blog-website"
+  }
+]
