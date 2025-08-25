@@ -6,27 +6,58 @@
   font-family: 'Poppins', sans-serif;
   text-align: center;
   padding: 0;
+  animation: fadeInContainer 1s ease-in-out;
 }
 
+/* Heading text */
 .hero-text {
-  color: white;
   font-size: 3rem;
   font-weight: bold;
-  display: inline-block; /* keeps both lines as one block */
+  display: inline-block;
   line-height: 1.2;
-  /* adjust spacing between lines */
+  color: transparent;
+  background: linear-gradient(90deg, #38bdf8, #a78bfa, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
+/* Each letter animation */
 .letter {
   opacity: 0;
   display: inline-block;
   transform: translateY(-20px);
-  animation: fadeInUp 0.5s forwards;
+  animation: fadeInUp 0.6s forwards;
 }
 
+/* Fade in with upward motion */
 @keyframes fadeInUp {
   to {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+
+@keyframes fadeInContainer {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Button glow effect */
+button:hover {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.6),
+              0 0 25px rgba(168, 85, 247, 0.5);
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }

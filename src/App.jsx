@@ -1,11 +1,8 @@
 
 import './App.css'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-import Contact from './Section/Contact'
-import Projects from './Section/Projects'
-import Service from './Section/Service'
-import Technologies from './Section/Technologies'
+
+import Root from './components/Root'
+
 
 function App() {
 
@@ -14,12 +11,7 @@ function App() {
    
     <>
       <div>
-           <Navbar/>
-           <Service/>
-           <Technologies/>
-           <Projects/>
-           <Contact/>
-           <Footer/>
+          <Root/>
       </div>
     </>
   )
