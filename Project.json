@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Personal Portfolio Website",
+    "description": "A responsive personal portfolio website built with React and Tailwind CSS to showcase my projects and skills.",
+    "image": "/src/assets/Portfolio.png",
+    "technologies": ["React", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
+    "github": "https://github.com/ninishad-1011/Protfolio"
+  },
+  {
+    "id": 2,
+    "title": "E-commerce Website",
+    "description": "A full-stack e-commerce web application with product listing, shopping cart, and checkout functionality.",
+    "image": "/src/assets/e-commerce.png",
+    "technologies": ["React", "Tailwind CSS", "JavaScript", "Firebase"],
+    "github": "https://github.com/ninishad-1011/FirstProject"
+  },
+  {
+    "id": 3,
+    "title": "TO-DO-WEB APP",
+    "description": "To-Do Web App: Manage daily tasks efficiently – add, edit, delete, and complete tasks.",
+    "image": "/src/assets/todo.png",
+    "technologies": [ "JavaScript", "CSS","HTML"],
+    "github": "https://github.com/ninishad-1011/TodoList"
+  },
+  {
+    "id": 4,
+    "title": "Landing-Page",
+    "description": "Landing Page: A clean and responsive page that showcases content and guides users with clear sections and navigation.",
+    "image": "/src/assets/LandingPage.png",
+    "technologies": ["HTML","CSS" ,"Bootstrap"],
+    "github": "https://github.com/ninishad-1011/2nd-web-page"
+  },
+  {
+    "id": 4,
+    "title": "Add to Cart ",
+    "description": "Add-to-Cart System: Allows users to select products, add them to a shopping cart, view cart items, and update quantities.",
+    "image": "/src/assets/addtocart.png",
+    "technologies": ["React", "CSS"],
+    "github": "https://github.com/ninishad-1011/SIMPLE-PROJECT"
+  }
+]
