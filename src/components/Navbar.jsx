@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-
 
   const navItems = [
     { name: "Home", path: "#hero" },
@@ -16,19 +14,13 @@ const Navbar = () => {
 
   return (
     <div className="bg-[#0F172A] fixed w-full top-0 z-50 transition-all duration-300">
-      <nav
-        className={`max-w-7xl mx-auto flex items-center justify-between px-6 py-4 text-gray-300 ${
-          isScrolled
-            ? "bg-white/10 backdrop-blur-md shadow-lg border-b border-white/20"
-            : "bg-transparent"
-        }`}
-      >
-       
+      <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4 text-gray-300">
+        {/* Logo / Name */}
         <div className="text-lg font-bold text-white">
-          Md.Nafiul Islam <br />Nishad
+          Md.Nafiul Islam <br /> Nishad
         </div>
 
-       
+        {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 text-white font-medium">
           {navItems.map((item, index) => (
             <li key={index} className="relative cursor-pointer hover:text-blue-400">

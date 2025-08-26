@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaFacebook, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -16,10 +16,21 @@ const Footer = () => {
 
         {/* Social Media */}
         <div className="flex space-x-4">
-          <FaGithub size={24} className="text-gray-400 hover:text-pink-500 transition-colors" />
-          <FaLinkedin size={24} className="text-gray-400 hover:text-pink-500 transition-colors" />
-          <FaTwitter size={24} className="text-gray-400 hover:text-pink-500 transition-colors" />
-          <FaEnvelope size={24} className="text-gray-400 hover:text-pink-500 transition-colors" />
+          <a href="https://github.com/ninishad-1011" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={24} className="text-gray-400 hover:text-pink-500 transition-colors" />
+          </a>
+          <a href="https://www.linkedin.com/in/md-nishad-islam-9460ba253/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={24} className="text-gray-400 hover:text-pink-500 transition-colors" />
+          </a>
+          <a href="https://www.facebook.com/picci1011/" target="_blank" rel="noopener noreferrer">
+            <FaFacebook size={24} className="text-gray-400 hover:text-pink-500 transition-colors" />
+          </a>
+          <a href="https://wa.me/01748755041" target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp size={24} className="text-gray-400 hover:text-pink-500 transition-colors" />
+          </a>
+          <a href="mailto:nafiul1011@gmail.com">
+            <FaEnvelope size={24} className="text-gray-400 hover:text-pink-500 transition-colors" />
+          </a>
         </div>
 
       </div>
